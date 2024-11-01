@@ -1,0 +1,451 @@
+body {
+    position: relative;
+}
+
+a, a:active, a:focus {
+    outline: 0 !important;
+    text-decoration: none!important;
+}
+
+.pay-link {
+    color: #337ab7!important;
+    cursor: pointer;
+}
+
+.alert {
+    margin-bottom: 5px;
+}
+
+.label {
+    color: #2c3e50 !important;
+    padding: 0px;
+    font-size: 12px;
+}
+
+.load {
+    text-align: center;
+}
+
+.load i {
+    color: #2c3e50;
+}
+
+.crop {
+    height: 100px;
+    overflow: hidden;
+}
+
+.crop img {
+    height: 200px;
+    display: block;
+    margin: -90px auto;
+}
+
+.jconfirm {
+    z-index: 1!important;
+}
+
+#settings_tabs {
+    width: 100%;
+    max-width: 1150px;
+}
+
+#settings_tabs #settings_tabs_navigation .settings_tabs_li {
+    width: 160px;
+}
+
+#settings_tabs #settings_tabs_navigation .settings_tabs_li a {
+    width: 100%;
+    max-width: 160px;
+    text-align: center;
+}
+
+#site_tabs #site_tabs_navigation .site_tabs_selected {
+    background-color: #EBEDF4;
+    border-bottom: 3px solid #EBEDF4;
+}
+
+#steemit_account input, #license input, .layout_input, .email_input {
+    height: 35px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 280px;
+}
+
+input.has-error {
+    border-color: #a94442;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.shareFeed {
+    width: 35px;
+    height: 35px;
+    background: #3498db;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.addData {
+    width: 35px;
+    height: 35px;
+    background: #27ae60;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.green {
+    color: #27ae60;
+}
+
+.red {
+    color: #c0392b;
+}
+
+.table {
+    border: none;
+}
+
+.table-definition thead th:first-child {
+    pointer-events: none;
+    background: white;
+}
+
+.table td, .table th {
+    vertical-align: middle !important;
+    min-height: 46px;
+    max-width: 200px;
+    border-top: 0px !important;
+}
+
+th p {
+    font-size: 8px;
+}
+
+.imgContainer {
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+}
+
+.imgContainer img {
+    width: 50px;
+    height: 50px;
+}
+
+tr:nth-child(even) {
+    background-color: #ecf0f1;
+}
+
+th {
+    text-align: center;
+    color: #2c3e50 !important;
+}
+
+.page-item>* {
+    border: none;
+}
+
+.custom-checkbox {
+    min-height: 1rem;
+    padding-left: 0;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+.custom-checkbox .custom-control-indicator {
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 10px;
+    background-color: #818181;
+    border-radius: 15px;
+    margin-right: 10px;
+    -webkit-transition: background .3s ease;
+    transition: background .3s ease;
+    vertical-align: middle;
+    margin: 0 16px;
+    box-shadow: none;
+}
+
+.custom-checkbox .custom-control-indicator:after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: #f1f1f1;
+    border-radius: 21px;
+    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4);
+    left: -2px;
+    top: -4px;
+    -webkit-transition: left .3s ease, background .3s ease, box-shadow .1s ease;
+    transition: left .3s ease, background .3s ease, box-shadow .1s ease;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-indicator {
+    background-color: #3498db;
+    background-image: none;
+    box-shadow: none !important;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-indicator:after {
+    background-color: #3498db;
+    left: 15px;
+}
+
+.custom-checkbox .custom-control-input:focus~.custom-control-indicator {
+    box-shadow: none !important;
+}
+
+.load a, .load p {
+    font-size: 15px;
+}
+
+.license-text span {
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.activate-link {
+    color: #00a0d2!important;
+    cursor: pointer;
+}
+
+#feedsTab {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#settings_tabs_navigation {
+    background-color: #bdc3c7;
+    border-color: #bdc3c7;
+}
+
+.option_label {
+    width: 190px !important;
+    display: inline-block;
+    text-align: left;
+}
+
+.options_div {
+    padding: 10px 0px 0px 0px;
+}
+
+.layout_input {
+    width: 75px;
+}
+
+.hidden {
+    display: none;
+}
+
+.act-span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.act-p {
+    margin-bottom: 5px;
+}
+
+#cont div {
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+#cont div:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+
+.layout_div {
+    border: 1px solid #2c3e50;
+    min-height: 50px;
+    margin: 15px;
+    padding: 5px;
+    position: relative;
+}
+
+.layout_div .description {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.layout_div .title {
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    margin: 0;
+    line-height: 50px;
+    font-style: italic;
+    color: #666;
+}
+
+.layout_div .image {
+    margin-bottom: 0px;
+    height: 300px;
+}
+
+.layout_div .image p {
+    font-style: italic;
+    color: #666;
+    font-size: 22px;
+}
+
+.layout_div a {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none !important;
+    margin: 0 auto;
+}
+
+.layout_div .remove-logo {
+    position: absolute;
+    left: 15px;
+    margin-left: -40px;
+    z-index: 2;
+    width: 80px;
+    font-size: 20px;
+}
+
+.logo div {
+    height: 100px;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.email_text {
+    width: 521px;
+    height: 100px;
+    display: block;
+}
+
+.email_text:focus {
+    outline: none;
+}
+
+.update-nag {
+    display: none;
+}
+
+#shared-count {
+    max-height: 242px;
+}
+
+#settings_tabs #settings_tabs_navigation .settings_tabs_li {
+    border-radius: 0px!important;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    background-color: #3498db!important;
+    border: 1px solid #bdc3c7!important;
+    border-radius: 0px!important;
+}
+
+.jconfirm .jconfirm-box div.jconfirm-content-pane::-webkit-scrollbar {
+    width: 6px;
+}
+
+.jconfirm-title-c {
+    padding-bottom: 5px;
+}
+
+.charts .col {
+    border: 1px solid #c5c5c5;
+}
+
+#shared-count {
+    min-height: 242px;
+}
+
+.charts .label {
+    display: block;
+    white-space: pre-wrap;
+}
+
+#shared-count {
+    width: 100%;
+    text-align: center;
+}
+
+.detail-label {
+    font-weight: 800;
+}
+
+.details-text {
+    font-weight: normal;
+    font-size: 25px;
+    font-family: Arial;
+}
+
+.count-details {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.count-type {
+    font-size: 25px;
+}
+
+.count-details p {
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.number-icon {
+    font-size: 100px;
+    text-align: center;
+}
+
+.bg-white {
+    background-color: #fff!important;
+    border-top: 0px #fff!important;
+}
+
+.bg-blue {
+    background-color: #ecf0f1!important;
+    border-top: 0px #ecf0f1!important;
+}
+
+.margin-bottom-0 {
+    margin-bottom: 0px;
+}
+
+.margin-top-0 {
+    margin-top: 0px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-0 {
+    margin: 0px!important;
+}
+
+.margin-5 {
+    margin: 5px!important;
+}
+
+.margin-top-5 {
+    margin-top: 5px!important;
+}
+
+.margin-bottom-5 {
+    margin-bottom: 5px!important;
+}
